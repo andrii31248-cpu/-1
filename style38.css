@@ -1,0 +1,11 @@
+fieldset{
+        background-color: burlywood;
+		width: 250px;
+		height: 350px;	
+        display: inline-block;	
+}
+        @media only screen
+				  and (min-device-width: 320px)
+				  and (max-device-width: 480px){
+					body { background-color:red; }
+				}

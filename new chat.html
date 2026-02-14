@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .form-container {
+            display: inline-block;
+            background-color: #c0c0c0;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="password"] {
+            width: 250px;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+            font-size: 16px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        .form-container button {
+            background-color: yellow;
+            border: 2px solid #000;
+            padding: 5px 30px;
+            font-size: 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #f7d700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Авторизація</h1>
+    <div class="form-container">
+        <form>
+            <label for="name">Введіть своє ім’я:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="surname">Введіть своє прізвище:</label>
+            <input type="text" id="surname" name="surname"><br>
+
+            <label for="password">Введіть пароль:</label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="confirm-password">Повторіть введений пароль:</label>
+            <input type="password" id="confirm-password" name="confirm-password"><br>
+
+            <button type="submit">Увійти</button>
+        </form>
+    </div>
+</body>
+</html>
+
